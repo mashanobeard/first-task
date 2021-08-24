@@ -13,8 +13,11 @@ const Counter = (props) =>(
         Increment
 
       </Button>
-      <Button variant="outlined" color="secondary">
+      <Button variant="outlined" color="secondary" onClick ={props.handleDecrement}>
        Decrement
+      </Button>
+      <Button variant="outlined" color="default" onClick ={props.handleReset}>
+       Reset
       </Button>
       
      
